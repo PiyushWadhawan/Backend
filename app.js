@@ -12,7 +12,6 @@ const HttpError = require('./models/http-error')
 
 const placesRoutes = require('./routes/places-routes');
 const usersRoutes = require('./routes/users-routes')
-//
 
 const app = express();
 
