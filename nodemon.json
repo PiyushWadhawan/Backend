@@ -1,9 +1,0 @@
-{
-    "env": {
-        "DB_USER": "piyush",
-        "DB_PASSWORD": "7qfBLT9I4hAG61H9",
-        "DB_NAME": "placekeep",
-        "LOCATION_API": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates",
-        "JWT_KEY": "supersecret_dont_share"
-    }
-}
