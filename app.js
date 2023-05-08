@@ -3,9 +3,7 @@ const path = require('path')
 const express = require('express');
 const mongoose = require('mongoose');
 
-const password = "7qfBLT9I4hAG61H9"
-const database = "placekeep"
-const url = `mongodb+srv://piyush:${password}@cluster0.zyrt8sn.mongodb.net/${database}?retryWrites=true&w=majority`
+const url = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.zyrt8sn.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
 
 const bodyParser = require("body-parser");
 const HttpError = require('./models/http-error')

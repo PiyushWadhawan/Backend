@@ -4,7 +4,7 @@ const HttpError = require('../models/http-error');
  
 const getCoordsForAddress = async (address) => {
     const response = await axios.get(
-        'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates',
+        `${process.env.LOCATION_API}`,
     {
         params: {
             f: 'json',
